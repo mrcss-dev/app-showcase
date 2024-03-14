@@ -69,13 +69,13 @@ main {
   margin-bottom: 10px;
 }
 
-.title {
+.heading {
   font-family: 'Titan One', sans-serif;
   color: var(--accent);
   margin-bottom: 16px;
 }
 
-.description {
+.subheading {
   font-size: 1.75rem;
   font-weight: 300;
   margin-bottom: 30px;
@@ -83,6 +83,7 @@ main {
 
 .badge-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
 }
 
