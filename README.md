@@ -1,7 +1,6 @@
 # Mobile App Showcase Astro Theme
 <img width="1920" alt="pb-rounded" src="https://github.com/cadensstudio/app-showcase/assets/54109914/d76cbfb7-b5e0-4298-84f8-648753629ff6">
 
-
 This theme is a fully responsive and customizable landing page for showcasing mobile apps. Built with Astro, it utilizes simple HTML and CSS for design and layout, ensuring simplicity and speed. Ideal for developers and designers looking for a lightweight starting point to promote their app.
 
 ## Features
