@@ -1,4 +1,4 @@
-# Astro Mobile App Showcase Theme
+# Mobile App Showcase Astro Theme
 
 This theme is a fully responsive and customizable landing page for showcasing mobile apps. Built with Astro, it utilizes simple HTML and CSS for design and layout, ensuring simplicity and speed. Ideal for developers and designers looking for a lightweight starting point to promote their app.
 
