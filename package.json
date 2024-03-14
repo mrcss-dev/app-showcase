@@ -1,0 +1,24 @@
+{
+  "name": "app-showcase",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro build && wrangler pages dev ./dist",
+    "astro": "astro",
+    "deploy": "astro build && wrangler pages deploy ./dist",
+    "build-cf-types": "wrangler types"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.9",
+    "@astrojs/cloudflare": "^9.1.0",
+    "astro": "^4.5.3",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240312.0",
+    "wrangler": "^3.33.0"
+  }
+}
