@@ -5,6 +5,11 @@
   src: url('/fonts/Titan_One_regular.woff2') format('woff2');
 }
 
+:root {
+  --accent: #FF9305;
+  --secondary: #8e8e93;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,7 +22,7 @@ html {
 body {
   font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Segoe UI, Roboto, Noto Sans, Helvetica Neue;
   -webkit-font-smoothing: antialiased;
-  color: #8e8e93;
+  color: var(--secondary);
 }
 
 h1, h2, h3 {
@@ -67,7 +72,7 @@ main {
 
 .title {
   font-family: 'Titan One', sans-serif;
-  color: #FF9305;
+  color: var(--accent);
   margin-bottom: 16px;
 }
 
@@ -91,12 +96,12 @@ main {
 }
 
 .authors {
-  color: #9B9B9B;
+  font-weight: 300;
 }
 
 .authors a {
-  color: #9B9B9B;
-  font-weight: 600;
+  color: inherit;
+  font-weight: 500;
   text-decoration: none;
 }
 .authors a:hover {
