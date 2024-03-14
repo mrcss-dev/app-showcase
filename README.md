@@ -1,47 +1,46 @@
-# Astro Starter Kit: Minimal
+# Astro Mobile App Showcase Theme
 
-```sh
-npm create astro@latest -- --template minimal
-```
+This theme is a fully responsive and customizable landing page for showcasing mobile apps. Built with Astro, it utilizes simple HTML and CSS for design and layout, ensuring simplicity and speed. Ideal for developers and designers looking for a lightweight starting point to promote their app.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## Features
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **No Dependencies**: Apart from Astro, this template does not use any external dependencies.
+- **Fully Customizable**: Customize every element of the template including fonts, images, and text by simple edits.
+- **Responsive Design**: Ensures your app looks stunning on both desktop and mobile devices.
 
-## 🚀 Project Structure
+## Getting Started
 
-Inside of your Astro project, you'll see the following folders and files:
+1. Clone this repository.
+2. Navigate to the project directory and install dependencies with `npm install`.
+3. Start the development server with `npm start`.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Customization Guide
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Content
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Edit the frontmatter section at the top of `/src/pages/index.html` to update the website content, including text and images.
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Styles
 
-## 🧞 Commands
+All CSS is located in `/src/styles/main.css`. Modify this file to change the look and feel of the site.
 
-All commands are run from the root of the project, from a terminal:
+### Images
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Replace images by uploading new ones to the `/public/images` folder and update the references in the frontmatter of `index.html`.
 
-## 👀 Want to learn more?
+### Fonts
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Add new font files to `/public/fonts` and reference them in `/src/styles/main.css` to change fonts.
+
+## Project Structure
+
+- `/src/pages/index.html`: The main HTML file for your landing page.
+- `/src/styles/main.css`: CSS file for styling your landing page.
+- `/public/images`: Directory for storing images.
+- `/public/fonts`: Directory for storing fonts.
+
+## Deployment
+
+This template can be deployed on any static site hosting service that supports Astro. Follow the hosting provider's instructions for deploying an Astro project.
+
+To view a live version of this site, see https://partybanner.app.
