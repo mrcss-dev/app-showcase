@@ -1,5 +1,5 @@
 ---
-
+import '../styles/main.css'
 ---
 
 <html lang="en">
@@ -11,6 +11,33 @@
 		<title>App Showcase</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="container">
+			<main>
+				<div class="text-container">
+					<img src="/images/app-icon.svg" class="app-icon">
+					<h1 class="title">Party Banner</h1>
+					<h2 class="description">Airplay custom animated banners to your TV and elevate any celebration.</h2>
+					<div class="badge-container">
+						<div>
+							<a href="https://apps.apple.com/us/app/party-banner/id1610931185" target="_blank">
+								<img src="/images/app-store-badge.svg" class="badge">
+							</a>
+						</div>
+						<div>
+							<a href="https://apps.apple.com/us/app/party-banner/id1610931185" target="_blank">
+								<img src="/images/google-play-badge.png" class="badge">
+							</a>
+						</div>
+					</div>
+					<p class="authors">Made with &#x2665; by <a href="https://willswire.com" target="_blank">Will Walker</a> and <a href="https://cadens.studio" target="_blank">Caden Kulp</a>.</p>
+				</div>
+				<div>
+					<img src="/images/app-screenshot.png" class="app-screenshot">
+				</div>
+			</main>
+			<footer>
+				<img src="/images/banners.svg" class="footer-image">
+			</footer>
+		</div>
 	</body>
 </html>
