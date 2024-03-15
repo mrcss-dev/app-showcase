@@ -5,13 +5,17 @@ This theme is a fully responsive and customizable landing page for showcasing mo
 
 ## Features
 
-- **No Dependencies**: Apart from Astro, this template does not use any external dependencies.
-- **Fully Customizable**: Customize every element of the template including fonts, images, and text by simple edits.
+- **No Dependencies**: Apart from Astro, this theme does not use any external dependencies.
+- **Fully Customizable**: Customize every element of the theme including fonts, images, and text by simple edits.
 - **Responsive Design**: Ensures your app looks stunning on both desktop and mobile devices.
+
+## Usage
+
+To begin using this theme for your mobile app landing page, we recommend taking advantage of the GitHub "Use this template" feature, located above the Clone button. This will allow you to create a separate repository where you can customize the theme as you wish.
 
 ## Getting Started
 
-1. Clone this repository.
+1. Create a new repository by clicking "Use this template".
 2. Navigate to the project directory and install dependencies with `npm install`.
 3. Start the development server with `npm start`.
 
@@ -42,6 +46,6 @@ Add new font files to `/public/fonts` and reference them in `/src/styles/main.cs
 
 ## Deployment
 
-This template can be deployed on any static site hosting service that supports Astro. Follow the hosting provider's instructions for deploying an Astro project.
+This theme can be deployed on any static site hosting service that supports Astro. Follow the hosting provider's instructions for deploying an Astro project.
 
 To view a live version of this site, see https://partybanner.app.
