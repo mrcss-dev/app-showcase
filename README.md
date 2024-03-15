@@ -35,7 +35,7 @@ Replace images by uploading new ones to the `/public/images` folder and update t
 
 ### Fonts
 
-Add new font files to `/public/fonts` and reference them in `/src/styles/main.css` to change fonts.
+Add new font files to `/public/fonts` and reference them in `/src/styles/main.css` to change fonts. For easy integration of Google Fonts into your project, check out (Hermes)[https://github.com/cadensstudio/hermes].
 
 ## Project Structure
 
